@@ -29,7 +29,7 @@ const skillCategories = [
     {
         title: "AI & NLP",
         icon: <Cpu className="text-indigo-400" size={24} />,
-        skills: ["OpenAI API", "LangChain", "LangGraph"],
+        skills: ["OpenAI API", "LangChain", "LangGraph", "Google ADK", "N8N"],
         color: "from-indigo-500/20 to-purple-500/20"
     }
 ];
