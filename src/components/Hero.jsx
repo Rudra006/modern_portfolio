@@ -38,8 +38,8 @@ export default function Hero() {
                 className="text-base md:text-lg text-secondary max-w-2xl px-6 leading-relaxed"
             >
                 Hi, I'm <span className="text-brand-primary dark:text-brand-secondary font-bold">Rudra Madhab Mahanty</span>.
-                A Results-driven Full-Stack Developer with 2+ years of experience
-                building high-performance web solutions using React and Node.js.
+                A Full-Stack Developer specializing in React, Node.js, and AI-powered applications,
+                delivering scalable systems with measurable performance impact.
             </motion.p>
 
             <motion.div
