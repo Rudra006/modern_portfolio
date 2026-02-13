@@ -70,7 +70,7 @@ export default function Contact() {
                         <div className="flex justify-center lg:justify-start gap-4 pt-4">
                             {[
                                 { icon: <Github size={22} />, link: "https://github.com/Rudra006", label: "GitHub" },
-                                { icon: <Linkedin size={22} />, link: "https://linkedin.com", label: "LinkedIn" },
+                                { icon: <Linkedin size={22} />, link: "https://www.linkedin.com/in/rudra-madhab-mahanty-973811203/", label: "LinkedIn" },
                                 { icon: <MessageCircle size={22} />, link: "https://wa.me/917437865981", label: "WhatsApp" }
                             ].map((social, i) => (
                                 <a

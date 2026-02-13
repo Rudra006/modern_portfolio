@@ -49,7 +49,7 @@ A premium, fully animated portfolio built with the **MERN stack**. This project 
 
 ## 📬 Contact Me
 - **Email**: [rudramadhab006@gmail.com](mailto:rudramadhab006@gmail.com)
-- **LinkedIn**: [Rudra Madhab Mahanty](https://linkedin.com)
+- **LinkedIn**: [Rudra Madhab Mahanty](https://www.linkedin.com/in/rudra-madhab-mahanty-973811203/)
 - **WhatsApp**: [+91 7437865981](https://wa.me/917437865981)
 
 *Created with ❤️ by [Rudra Madhab Mahanty](https://github.com/Rudra006)*

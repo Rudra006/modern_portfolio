@@ -18,7 +18,7 @@ export default function Footer() {
                     <a href="https://github.com/Rudra006" target="_blank" rel="noreferrer" className="p-2 hover:text-brand-primary transition-colors">
                         <Github size={20} />
                     </a>
-                    <a href="https://linkedin.com/in/rudra-madhab-mahanty" target="_blank" rel="noreferrer" className="p-2 hover:text-brand-primary transition-colors">
+                    <a href="https://www.linkedin.com/in/rudra-madhab-mahanty-973811203/" target="_blank" rel="noreferrer" className="p-2 hover:text-brand-primary transition-colors">
                         <Linkedin size={20} />
                     </a>
                     <a href="mailto:rudramadhab006@gmail.com" className="p-2 hover:text-brand-primary transition-colors">

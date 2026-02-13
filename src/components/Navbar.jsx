@@ -49,7 +49,7 @@ export default function Navbar({ theme, toggleTheme }) {
                         <a href="https://github.com/Rudra006" target="_blank" rel="noreferrer">
                             <Github size={18} className="hover:text-brand-primary transition-colors" />
                         </a>
-                        <a href="https://linkedin.com/in/rudra-madhab-mahanty" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/rudra-madhab-mahanty-973811203/" target="_blank" rel="noreferrer">
                             <Linkedin size={18} className="hover:text-brand-primary transition-colors" />
                         </a>
                     </div>
@@ -87,7 +87,7 @@ export default function Navbar({ theme, toggleTheme }) {
                             <a href="https://github.com/Rudra006" target="_blank" rel="noreferrer">
                                 <Github size={20} />
                             </a>
-                            <a href="https://linkedin.com/in/rudra-madhab-mahanty" target="_blank" rel="noreferrer">
+                            <a href="https://www.linkedin.com/in/rudra-madhab-mahanty-973811203/" target="_blank" rel="noreferrer">
                                 <Linkedin size={20} />
                             </a>
                         </div>
