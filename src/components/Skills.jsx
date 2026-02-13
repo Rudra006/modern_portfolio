@@ -1,30 +1,36 @@
 import { motion } from "framer-motion";
-import { Code2, Database, Layout, Server, Cpu, Globe } from "lucide-react";
+import { Code2, Database, Layout, Server, Cpu, Globe, Terminal, Cloud, Search } from "lucide-react";
 
 const skillCategories = [
     {
         title: "Frontend Development",
         icon: <Layout className="text-brand-primary" size={24} />,
-        skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Redux", "Framer Motion"],
+        skills: ["React.js", "Redux", "Zustand", "Tailwind CSS", "Material-UI", "Electron.js", "React Native", "Cypress", "Streamlit"],
         color: "from-blue-500/20 to-cyan-500/20"
     },
     {
-        title: "Backend & Cloud",
+        title: "Backend Development",
         icon: <Server className="text-brand-secondary" size={24} />,
-        skills: ["Node.js", "Express", "Python", "AWS S3", "Firebase", "JWT"],
+        skills: ["Node.js", "Express.js", "REST/GraphQL APIs", "MongoDB", "PostgreSQL", "MySQL", "Postman"],
         color: "from-purple-500/20 to-pink-500/20"
     },
     {
-        title: "AI & Data",
-        icon: <Cpu className="text-indigo-400" size={24} />,
-        skills: ["OpenAI API", "LangChain", "LLMs", "ChromaDB", "Vector search"],
-        color: "from-indigo-500/20 to-blue-500/20"
+        title: "Cloud & DevOps",
+        icon: <Cloud className="text-cyan-400" size={24} />,
+        skills: ["AWS (S3, Lambda)", "Azure Functions", "Docker", "GitHub Actions", "CI/CD"],
+        color: "from-cyan-500/20 to-blue-500/20"
     },
     {
-        title: "Databases",
-        icon: <Database className="text-emerald-400" size={24} />,
-        skills: ["MongoDB", "PostgreSQL", "Redis", "MySQL", "Prisma"],
+        title: "Languages",
+        icon: <Terminal className="text-emerald-400" size={24} />,
+        skills: ["JavaScript", "TypeScript", "Python", "C/C++"],
         color: "from-emerald-500/20 to-teal-500/20"
+    },
+    {
+        title: "AI & NLP",
+        icon: <Cpu className="text-indigo-400" size={24} />,
+        skills: ["OpenAI API", "LangChain", "LangGraph"],
+        color: "from-indigo-500/20 to-purple-500/20"
     }
 ];
 

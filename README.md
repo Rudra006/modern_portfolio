@@ -18,10 +18,12 @@ A premium, fully animated portfolio built with the **MERN stack**. This project 
 - **💎 Glassmorphism UI**: Modern aesthetic with frosted glass effects and vibrant decorative elements.
 
 ## 🛠️ Tech Stack
-- **Frontend**: React.js, Tailwind CSS v4, Framer Motion, Lucide React
-- **Backend (Integration)**: Node.js, Express, FormSubmit API
-- **AI Tools**: OpenAI GPT-4, LangChain (featured in projects)
-- **Deployment**: Optimized for Vercel/Netlify
+- **Frontend**: React.js, Redux, Zustand, Tailwind CSS, Material-UI, Electron.js, React Native, Cypress, Streamlit
+- **Backend**: Node.js, Express.js, REST/GraphQL APIs, MongoDB, PostgreSQL, MySQL, Postman
+- **Cloud & DevOps**: AWS (S3, Lambda), Azure Functions, Docker, GitHub Actions, CI/CD
+- **Languages**: JavaScript, TypeScript, Python, C/C++
+- **AI & NLP**: OpenAI API, LangChain, LangGraph
+- **Tools**: Lucide React, Framer Motion, FormSubmit API
 
 ## 📁 Project Showcase
 ### 1. RFP Management System
