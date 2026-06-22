@@ -53,14 +53,6 @@ Visual node-based editor for designing chatbot conversation flows with real-time
 Chrome extension that adds real-time translation and sentiment analysis inside WhatsApp Web.
 - [GitHub](https://github.com/Rudra006/whatsapp-translate-extension)
 
-## 🏁 Getting Started
-```bash
-git clone https://github.com/Rudra006/portfolio
-cd portfolio
-npm install
-npm run dev
-```
-
 ---
 
 ## 📬 Contact
