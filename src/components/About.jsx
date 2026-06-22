@@ -1,26 +1,26 @@
 import { motion } from "framer-motion";
-import { Code, Server, Layout, Cpu } from "lucide-react";
+import { Layers, Zap, Radio, Cloud } from "lucide-react";
 
 const features = [
     {
-        icon: <Layout className="text-brand-primary" size={24} />,
-        title: "Frontend Development",
-        desc: "Crafting responsive and interactive UIs using React and modern CSS."
+        icon: <Layers className="text-brand-primary" size={24} />,
+        title: "SaaS Dashboard Engineering",
+        desc: "Angular.js + NgRx applications with complex state, D3.js/Chart.js visualizations, and multi-client data isolation."
     },
     {
-        icon: <Server className="text-brand-secondary" size={24} />,
-        title: "Backend Solutions",
-        desc: "Building scalable APIs and server-side logic with Node.js and Express."
+        icon: <Zap className="text-brand-secondary" size={24} />,
+        title: "Python Microservices",
+        desc: "FastAPI and Django services with async Python, Pydantic contracts, OAuth2 + JWT auth, and independent deployment."
     },
     {
-        icon: <Cpu className="text-cyan-500" size={24} />,
-        title: "Performance Optimization",
-        desc: "Streamlining code and assets for lightning-fast load times."
+        icon: <Radio className="text-cyan-500" size={24} />,
+        title: "Streaming AI Interfaces",
+        desc: "Live token-by-token AI responses over SSE and WebSockets — with thinking states, abort controls, and sub-second first paint."
     },
     {
-        icon: <Code className="text-orange-500" size={24} />,
-        title: "Clean Code",
-        desc: "Writing maintainable, well-documented code with strong architectures."
+        icon: <Cloud className="text-orange-500" size={24} />,
+        title: "Cloud & CI/CD",
+        desc: "Azure-first deployments, Docker containerisation, and GitHub Actions pipelines that gate every merge with Cypress and pytest."
     }
 ];
 
@@ -31,9 +31,9 @@ export default function About() {
                 <h2 className="text-4xl font-bold">About <span className="text-brand-primary">Me</span></h2>
                 <div className="h-1 w-20 bg-brand-primary rounded-full" />
                 <p className="max-w-3xl text-secondary text-base md:text-lg pt-4 leading-relaxed">
-                    Results-driven Full-Stack Developer with nearly 2 years of experience crafting scalable web solutions.
-                    I specialize in enhancing performance, streamlining API integrations, and delivering intuitive,
-                    cloud-ready applications with a strong focus on user experience.
+                    Full Stack Developer with 2+ years shipping complete products end-to-end. I work across
+                    Angular.js SaaS platforms, Python microservice backends, and AI-powered interfaces —
+                    comfortable from database query plans all the way to GitHub Actions pipelines.
                 </p>
             </div>
 

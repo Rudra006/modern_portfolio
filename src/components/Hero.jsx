@@ -27,8 +27,8 @@ export default function Hero() {
                 transition={{ delay: 0.2 }}
                 className="text-4xl md:text-7xl font-bold tracking-tight px-4"
             >
-                Crafting <span className="text-gradient">Scalable</span> <br />
-                Legacy Code to Future-Ready.
+                Building <span className="text-gradient">Production-Grade</span> <br />
+                Products That Scale.
             </motion.h1>
 
             <motion.p
@@ -38,8 +38,8 @@ export default function Hero() {
                 className="text-base md:text-lg text-secondary max-w-2xl px-6 leading-relaxed"
             >
                 Hi, I'm <span className="text-brand-primary dark:text-brand-secondary font-bold">Rudra Madhab Mahanty</span>.
-                A Full-Stack Developer specializing in React, Node.js, and AI-powered applications,
-                delivering scalable systems with measurable performance impact.
+                Full Stack Developer with 2+ years shipping SaaS dashboards, Python microservices,
+                and AI interfaces where responses stream live — from scoping to production.
             </motion.p>
 
             <motion.div

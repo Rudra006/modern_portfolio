@@ -4,25 +4,28 @@ import { useRef } from "react";
 
 const experiences = [
     {
-        role: "Full-Stack Developer",
+        role: "Full Stack Developer",
         company: "Neophyte Ambient Intelligence",
         location: "Navi Mumbai",
         period: "Dec 2023 – Present",
         achievements: [
-            "Achieved 20% improvement in React app initial load time via code partitioning.",
-            "Engineered APIs leading to a 25% decrease in server response latency.",
-            "Designed interactive KPI charts using ApexCharts and Recharts.",
-            "Accelerated decision-making by 30% through intuitive analytics."
+            "Built Angular.js + NgRx dashboard modules for a multi-store analytics SaaS running across 10+ client environments, with D3.js and Chart.js data visualisations.",
+            "Architected a FastAPI microservice layer in async Python — Pydantic contracts, OAuth2 + JWT, Swagger docs — slashing inter-service latency by 30%.",
+            "Cut API response times by 25% by profiling PostgreSQL query plans, adding compound indexes, and rewriting MongoDB aggregation pipelines over 50M+ record datasets.",
+            "Shipped a production AI chat interface on Azure Functions + LangChain — responses stream over SSE with a live thinking state and mid-response abort; first token in under a second.",
+            "Delivered a multi-tenant Django platform with RBAC and Celery async workers, improving report generation across 5+ clients by 35%.",
+            "Drove real-time KPI dashboards via WebSocket streams with BullMQ handling 1,000+ jobs/day; Azure Blob Storage exports improved throughput by 40%.",
+            "Owned quality end-to-end: Cypress E2E, pytest, Docker containerisation, and GitHub Actions CI/CD gating every release."
         ]
     },
     {
-        role: "Intern",
+        role: "Software Intern",
         company: "DRDO Integrated Test Range",
         location: "Chandipur",
         period: "Jun 2023 – Jul 2023",
         achievements: [
-            "Developed PyQt4-based GUI for flight simulation, reducing setup time by 40%.",
-            "Integrated real-time telemetry visualization dashboards."
+            "Built a PyQt4 GUI for flight simulation workflows, cutting operator setup time by 40%.",
+            "Integrated real-time telemetry streams into live visualisation dashboards."
         ]
     },
     {
@@ -31,8 +34,8 @@ const experiences = [
         location: "Remote",
         period: "Aug 2022 – Oct 2022",
         achievements: [
-            "Designed React UI components increasing user interaction by 20%.",
-            "Integrated PHP/MySQL APIs to optimize content delivery."
+            "Developed reusable React UI components that lifted user interaction metrics by 20%.",
+            "Integrated PHP/MySQL APIs to streamline content delivery across the platform."
         ]
     }
 ];

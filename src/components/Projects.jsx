@@ -3,49 +3,49 @@ import { Github, ExternalLink, Code2, Globe, MessageSquare, Briefcase } from "lu
 
 const projects = [
     {
-        title: "RFP Management System",
-        tech: ["Node.js", "GPT-4", "IMAP", "PostgreSQL"],
-        desc: "AI-driven workflow: NL to structured RFP, vendor management, and automated proposal analysis via IMAP parsing.",
-        github: "https://github.com/Rudra006/RFP_management_system",
-        demo: "#",
-        icon: <Briefcase className="text-white/40" size={48} />
-    },
-    {
-        title: "Rezzy – LLM Study Assistant",
-        tech: ["LangChain", "React Native", "TypeScript", "ChromaDB"],
-        desc: "Cross-platform AI assistant enabling semantic search and RAG over study materials.",
+        title: "Rezzy — LLM Study Assistant",
+        tech: ["React.js", "FastAPI", "LangChain", "ChromaDB", "Amazon S3"],
+        desc: "AI study companion with a RAG pipeline delivering sub-800ms semantic search over 10K+ document chunks. Responses stream token-by-token with a live thinking indicator and early-stop control. Async ingestion pipeline keeps reliability above 99% under concurrent load.",
         github: "https://github.com/Rudra006/rezzy_study_assistant",
         demo: "https://drive.google.com/file/d/1er9bzXR29x9gD_B3nKb2NnUbwcB_sDPW/view?usp=drive_link",
         icon: <Globe className="text-white/40" size={48} />
     },
     {
-        title: "Chatboat Flow Editor",
-        tech: ["React", "React Flow", "Tailwind"],
-        desc: "Visual node-based editor for designing complex chatbot conversation flows with real-time preview.",
-        github: "https://github.com/Rudra006/chatboat-flow-editor",
-        demo: "https://chatboat-flow-editor.vercel.app/",
-        icon: <MessageSquare className="text-white/40" size={48} />
-    },
-    {
-        title: "HRMS System",
-        tech: ["MERN", "JWT", "Geolocation"],
-        desc: "Professional attendance, salary, and leave management system for enterprises.",
+        title: "HRMS SaaS Platform",
+        tech: ["Angular.js", "NgRx", "Django REST", "PostgreSQL", "Azure"],
+        desc: "Multi-tenant HR platform managing payroll, attendance, and leave for 200+ employees. NgRx handles all cross-module state; Django REST + PostgreSQL cut report generation time by 35%. GitHub Actions runs Cypress E2E and pytest on every PR.",
         github: "https://github.com/Rudra006",
         demo: "https://neo-hrms-test.neophyte.live/",
         icon: <Code2 className="text-white/40" size={48} />
     },
     {
+        title: "RFP Management System",
+        tech: ["Angular.js", "FastAPI", "Azure Blob Storage", "RBAC"],
+        desc: "End-to-end RFP tracker moving documents through 8 lifecycle stages with role-based access control at every step. Built with Angular.js + FastAPI; assets stored on Azure Blob; Cypress tests run in CI on every merge.",
+        github: "https://github.com/Rudra006/RFP_management_system",
+        demo: "#",
+        icon: <Briefcase className="text-white/40" size={48} />
+    },
+    {
+        title: "Chatbot Flow Editor",
+        tech: ["React", "React Flow", "Tailwind"],
+        desc: "Visual node-based editor for designing complex chatbot conversation flows with drag-and-drop nodes and real-time preview.",
+        github: "https://github.com/Rudra006/chatboat-flow-editor",
+        demo: "https://chatboat-flow-editor.vercel.app/",
+        icon: <MessageSquare className="text-white/40" size={48} />
+    },
+    {
         title: "WhatsApp Translator",
-        tech: ["JS", "Chrome API", "AI"],
-        desc: "Chrome extension for real-time translation and sentiment analysis in WhatsApp Web.",
+        tech: ["JavaScript", "Chrome API", "AI"],
+        desc: "Chrome extension that adds real-time translation and sentiment analysis directly inside WhatsApp Web — zero UI disruption.",
         github: "https://github.com/Rudra006/whatsapp-translate-extension",
         demo: "#",
         icon: <MessageSquare className="text-white/40" size={48} />
     },
     {
         title: "Weather App",
-        tech: ["React", "Vite", "OpenWeather"],
-        desc: "Sub-50KB hyper-fast weather forecasting application with efficient caching.",
+        tech: ["React", "Vite", "OpenWeather API"],
+        desc: "Hyper-fast weather forecasting app under 50KB with smart caching and clean, minimal UI.",
         github: "https://github.com/Rudra006/WeatherApp",
         demo: "https://weather-app-eta-jade.vercel.app/",
         icon: <Globe className="text-white/40" size={48} />

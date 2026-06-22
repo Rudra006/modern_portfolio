@@ -1,35 +1,41 @@
 import { motion } from "framer-motion";
-import { Code2, Database, Layout, Server, Cpu, Globe, Terminal, Cloud, Search } from "lucide-react";
+import { Layout, Server, Radio, Database, Cloud, Cpu } from "lucide-react";
 
 const skillCategories = [
     {
-        title: "Frontend Development",
+        title: "Frontend",
         icon: <Layout className="text-brand-primary" size={24} />,
-        skills: ["React.js", "Redux", "Zustand", "Tailwind CSS", "Material-UI", "Electron.js", "React Native", "Cypress", "Streamlit"],
+        skills: ["Angular.js", "NgRx", "RxJS", "D3.js", "Chart.js", "Figma", "ESLint / Prettier", "React.js", "Redux", "Zustand", "Tailwind CSS", "Material UI"],
         color: "from-blue-500/20 to-cyan-500/20"
     },
     {
-        title: "Backend Development",
+        title: "Backend",
         icon: <Server className="text-brand-secondary" size={24} />,
-        skills: ["Node.js", "Express.js", "REST/GraphQL APIs", "MongoDB", "PostgreSQL", "MySQL", "Postman"],
+        skills: ["FastAPI", "Django", "Celery", "BullMQ", "Pydantic", "OAuth2 + JWT", "Swagger / OpenAPI", "Node.js", "Express.js", "REST APIs"],
         color: "from-purple-500/20 to-pink-500/20"
     },
     {
+        title: "Streaming & Real-time",
+        icon: <Radio className="text-cyan-400" size={24} />,
+        skills: ["SSE", "ReadableStream", "WebSockets", "Live-token Rendering", "Progress Indicators", "Abort / Retry Controls"],
+        color: "from-cyan-500/20 to-teal-500/20"
+    },
+    {
+        title: "Databases",
+        icon: <Database className="text-emerald-400" size={24} />,
+        skills: ["PostgreSQL", "Redis", "MongoDB", "InfluxDB", "MySQL"],
+        color: "from-emerald-500/20 to-green-500/20"
+    },
+    {
         title: "Cloud & DevOps",
-        icon: <Cloud className="text-cyan-400" size={24} />,
-        skills: ["AWS (S3, Lambda)", "Azure Functions", "Docker", "GitHub Actions", "CI/CD"],
-        color: "from-cyan-500/20 to-blue-500/20"
+        icon: <Cloud className="text-orange-400" size={24} />,
+        skills: ["Azure Functions", "Azure Blob Storage", "Azure Redis Cache", "Azure App Service", "AWS Lambda", "Amazon S3", "Docker", "GitHub Actions CI/CD"],
+        color: "from-orange-500/20 to-amber-500/20"
     },
     {
-        title: "Languages",
-        icon: <Terminal className="text-emerald-400" size={24} />,
-        skills: ["JavaScript", "TypeScript", "Python", "C/C++"],
-        color: "from-emerald-500/20 to-teal-500/20"
-    },
-    {
-        title: "AI & NLP",
+        title: "Languages & AI",
         icon: <Cpu className="text-indigo-400" size={24} />,
-        skills: ["OpenAI API", "LangChain", "LangGraph", "Google ADK", "N8N"],
+        skills: ["JavaScript (ES6+)", "TypeScript", "Python", "SQL", "OpenAI API", "LangChain", "ChromaDB"],
         color: "from-indigo-500/20 to-purple-500/20"
     }
 ];
